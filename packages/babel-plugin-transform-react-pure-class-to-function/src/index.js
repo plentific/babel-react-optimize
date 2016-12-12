@@ -1,5 +1,5 @@
 module.exports = function({ types: t }) {
-  const isReactClass = require('babel-helper-is-react-class')(t);
+  const isReactClass = require('babel-helper-is-react-class-fork')(t);
 
   const bodyVisitor = {
     ClassMethod(path) {

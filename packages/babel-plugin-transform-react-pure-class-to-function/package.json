@@ -1,20 +1,20 @@
 {
-  "name": "babel-plugin-transform-react-pure-class-to-function",
+  "name": "babel-plugin-transform-react-pure-class-to-function-fork",
   "version": "1.1.0",
-  "description": "",
+  "description": "A fork of babel-plugin-transform-react-pure-class-to-function",
   "main": "lib/index.js",
   "license": "MIT",
-  "author": "James Kyle <me@thejameskyle.com>",
-  "homepage": "https://github.com/thejameskyle/babel-react-optimize#user-content-transform-react-pure-class-to-function",
-  "repository": "https://github.com/thejameskyle/babel-react-optimize/tree/master/packages/babel-plugin-transform-react-pure-class-to-function",
-  "bugs": "https://github.com/thejameskyle/babel-react-optimize/issues",
+  "author": "Tim van der Horst <timgvdh@gmail.com>",
+  "homepage": "https://github.com/thejameskyle/babel-react-optimize/pull/26",
+  "repository": "https://github.com/vdh/babel-react-optimize/tree/master/packages/babel-plugin-transform-react-pure-class-to-function",
+  "bugs": "https://github.com/vdh/babel-react-optimize/issues",
   "keywords": [
     "babel-helper",
     "react",
     "optimize"
   ],
   "dependencies": {
-    "babel-helper-is-react-class": "^2.0.0"
+    "babel-helper-is-react-class-fork": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
