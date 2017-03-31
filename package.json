@@ -1,4 +1,6 @@
 {
+  "name": "babel-preset-react-optimize",
+  "version": "0.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -23,5 +25,11 @@
     "mocha": "^2.4.5",
     "through2": "^2.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-plugin-transform-react-constant-elements": "^6.5.0",
+    "babel-plugin-transform-react-inline-elements": "^6.6.5",
+    "babel-plugin-transform-react-pure-class-to-function-fork": "^1.0.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.2.5",
+    "babel-plugin-transform-react-router-optimize": "^1.0.1"
+  }
 }
