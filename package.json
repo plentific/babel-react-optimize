@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "license": "MIT",
-  "main": "packages/babel-preset-react-optimize/src/index.js",
+  "main": "index.js",
   "dependencies": {
     "@babel/plugin-transform-react-constant-elements": "^7.7.4",
     "@babel/plugin-transform-react-inline-elements": "^7.7.4",
